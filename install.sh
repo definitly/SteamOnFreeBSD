@@ -1,7 +1,9 @@
 #!/bin/sh
 
 MASTER_SITES=http://de.archive.ubuntu.com/ubuntu/
-UBUNTU_VERSION=14.04
+
+UBUNTU_VERSION=17.10
+
 
 
 
@@ -58,11 +60,13 @@ mkdir -p                                   ubuntu/var/run/shm
    
 
 
-     if ! [ -f "tar/libflashsupport.so" ];then 
+   #  if ! [ -f "tar/libflashsupport.so" ];then 
 
-      cd tar && fetch ftp://ftp.tw.freebsd.org/pub/FreeBSD/FreeBSD/distfiles/flashplugin/9.0r48/libflashsupport.so && cd ../
+
+   #  cd tar && fetch ftp://ftp.tw.freebsd.org/pub/FreeBSD/FreeBSD/distfiles/flashplugin/9.0r48/libflashsupport.so && cd ../
+
    
-      fi
+   #  fi
 
  
 cp       tar/libflashsupport.so            ubuntu/usr/lib
@@ -110,7 +114,7 @@ ln -s    bash                              ubuntu/bin/sh
 
       if ! [ -f "tar/linux-skype_oss_wrapper-0.1.1.txz" ]; then 
 
-         cd tar && fetch http://pkg.freebsd.org/freebsd:11:x86:32/latest/All/linux-skype_oss_wrapper-0.1.1.txz && cd ../
+         cd tar && fetch  http://195.208.113.158/FreeBSD/PKG/freebsd%3A10%3Ax86%3A32/release_3/All/linux-skype_oss_wrapper-0.1.1.txz && cd ../
 
         fi
 
@@ -126,6 +130,7 @@ doas chroot ubuntu /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/gdk-pixbuf-query-loade
 du -a ubuntu/usr/share/ca-certificates | sed 's/ubuntu\/usr\/share\/ca-certificates\///' |  awk '{print $2}' \
  >>  ubuntu/etc/ca-certificates.conf
 
+doas sysctl compat.linux.osrelease=3.6.38
 
 doas cp -R  ubuntu /compat
 doas chroot /compat/ubuntu locale-gen en_US.UTF-8
