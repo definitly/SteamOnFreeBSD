@@ -374,7 +374,12 @@ pool/main/p/python-setuptools/python-pkg-resources_36.2.7-2_all.deb
 pool/universe/m/m2crypto/python-m2crypto_0.24.0-2_i386.deb
 pool/universe/p/python-apsw/python-apsw_3.16.2-r1-2build2_i386.deb
 
+pool/main/l/lapack/liblapack3_3.7.1-4ubuntu1_i386.deb
+pool/main/l/lapack/libblas3_3.7.1-4ubuntu1_i386.deb
+pool/main/g/gcc-8/libgomp1_8-20180414-1ubuntu2_i386.deb
 
+pool/universe/j/jack-audio-connection-kit/libjack0_0.125.0-3_i386.deb
+pool/main/g/gcc-8/libquadmath0_8-20180414-1ubuntu2_i386.deb
 
 
 
