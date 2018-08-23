@@ -381,5 +381,11 @@ pool/main/g/gcc-8/libgomp1_8-20180414-1ubuntu2_i386.deb
 pool/universe/j/jack-audio-connection-kit/libjack0_0.125.0-3_i386.deb
 pool/main/g/gcc-8/libquadmath0_8-20180414-1ubuntu2_i386.deb
 
+pool/universe/s/sndio/libsndio6.1_1.1.0-2_i386.deb
 
+pool/universe/libv/libva/libva1_1.7.0-1_i386.deb
+pool/main/b/bzip2/libbz2-1.0_1.0.6-8.1_i386.deb
+pool/main/libv/libvdpau/libvdpau1_1.1.1-3ubuntu1_i386.deb
+pool/universe/libv/libva/libva-x11-1_1.8.3-2_i386.deb
+pool/main/libd/libdrm/libdrm2_2.4.83-1_i386.deb
 
