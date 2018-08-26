@@ -83,9 +83,9 @@ pool/main/libx/libxt/libxt6_1.1.5-1_i386.deb
 pool/universe/c/crystalhd/libcrystalhd3_0.0~git20110715.fdd2f19-12_i386.deb
 
 
-pool/main/c/curl/libcurl3_7.55.1-1ubuntu2.5_i386.deb
 
-pool/main/c/curl/libcurl3-gnutls_7.55.1-1ubuntu2.5_i386.deb 
+pool/main/c/curl/libcurl3_7.55.1-1ubuntu2.6_i386.deb
+pool/main/c/curl/libcurl3-gnutls_7.55.1-1ubuntu2.6_i386.deb 
 
 pool/main/o/openssl/libssl1.0.0_1.0.2g-1ubuntu13.6_i386.deb
 pool/main/c/cyrus-sasl2/libsasl2-2_2.1.27~101-g0780600+dfsg-3ubuntu1_i386.deb
