@@ -2,7 +2,7 @@
 
 MASTER_SITES=http://de.archive.ubuntu.com/ubuntu/
 
-UBUNTU_VERSION=17.10
+UBUNTU_VERSION=18.10
 
 
 
